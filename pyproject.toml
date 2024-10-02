@@ -1,0 +1,47 @@
+[project]
+name = "auto-semantic-segmentation"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Anatolii Medvedev", email = "aamedvedev@itmo.ru"},
+]
+dependencies = [
+    "addict",
+    "black==22.10.0",
+    "efficientnet-pytorch==0.7.1",
+    "fairscale",
+    "flake8==7.1.1",
+    "gradio",
+    "huggingface-hub",
+    "isort==5.13.2",
+    "litellm",
+    "matplotlib",
+    "nltk",
+    "numpy",
+    "onnxruntime",
+    "opencv-python",
+    "Pillow",
+    "pre-commit>=3.8.0",
+    "pretrainedmodels==0.7.4",
+    "pycocotools",
+    "pytest>=8.3.3",
+    "PyYAML",
+    "requests>=2.32.3",
+    "segmentation-models-pytorch",
+    "setuptools",
+    "supervision",
+    "termcolor",
+    "timm==0.9.7",
+    "torch",
+    "torchvision",
+    "transformers",
+    "tqdm",
+    "yapf",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "BSD 3-Clause"}
+
+
+[tool.pdm]
+distribution = false
